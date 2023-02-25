@@ -2,15 +2,16 @@
 <head>
     <title>Jack's Portfolio</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../javascript/typingeffect.js"></script>
 </head>
     <div id="navBar"></div>
-    <body>
+    <body onload="typing(document.getElementById('Job'), 'Software&nbsp;Developer');">
 
         <div id="introBox">
             <div id="blockHolder">
                 <div id="block1">
                     <h1>Jack Roth</h1>
-                    <h2>Software Developer</h2>
+                    <h2 id="jobTitle"><span id="Job"></span><span id="cursor">|</span></h2>
                 </div>
                 <div id="headshot">
                     <img src="../images/transparentHead.png">
@@ -24,12 +25,22 @@
             </div>
         </div>
 
-        <div id="techStack">
+        <div id="techStack" class="fade-in-section">
             <div id="techLanguage">
                 <h3>Languages</h3>
+                <div id="LanguagesHolder">
+                    <table>
+                        <tr>
+                            <td width="15%" height="15%"><img src="../images/icons/python.png" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="../images/icons/java.png" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="../images/icons/csharp.png" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="../images/icons/cplusplus.png" width="75%" height="75%"></td>
+                        </tr>
+                      </table>
+                </div>
             </div>
             <div id="techFrameworks">
-                <h3>Frameworks</h3>
+                <h3>Libraries</h3>
             </div>
             <div id="techTools">
                 <h3>Tools</h3>
