@@ -1,15 +1,16 @@
 body {
-    background-color: #3AAFA9;
+    background-color: #FAF9F6;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
     width: 50%;
 }
 
+
 h1, p {
-    font-family: sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     width: 100%;
-    color: white;
+    color: brown;
     margin-top: 1px;
     margin-bottom: 1px;
 }
@@ -19,24 +20,28 @@ h1, p {
 }
 
 #introBox p {
-    font-size: .75vw;
+    font-size: 1vw;
 }
 
 #introBox h2 {
-    font-family: sans-serif;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     font-size: 2vw;
     margin-top: 1px;
     margin-bottom: 1px;
 }
 
 #introBox {
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 75px;
     padding: 25px;
     width: 100%;
-    background-color: #2b7A78;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+}
+
+#blockHolder {
+    margin-bottom: 75px;
+}
+
+#introP h3 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
 }
 
 #block1 {
@@ -52,6 +57,62 @@ h1, p {
 }
 
 #headshot img {
-    height: 10vw;
-    width: 10vw;
+    height: 13vw;
+    width: 13vw;
+    margin-right: 30px;
+}
+
+#techStack {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#techLanguage {
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 200px;
+    margin-right: 5%;
+    margin-left: auto;
+    box-shadow: 0px 20px 2px 0px gray;
+}
+
+#techFrameworks {
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 200px;
+    margin-right: 5%;
+    margin-left: auto;
+    box-shadow: 0px 20px 2px 0px gray;
+}
+
+#techTools {
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 20px 2px 0px gray;
+}
+
+#techStack h3 {
+    text-align: right;
+    font-size: 1vw;
+    color: brown;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
