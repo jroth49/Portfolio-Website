@@ -3,9 +3,9 @@ from flask import Flask, redirect, url_for, render_template
 app = Flask(__name__)
 
 
-@app.route('/<name>')
-def index(name):
-    return render_template('header.html', username=name)
+@app.route('/')
+def index():
+    return render_template('header.html')
 
 @app.route('/login')
 def login():
