@@ -16,6 +16,7 @@
     margin-bottom: 100px;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     text-align: center;
+    font-size: xx-small;
 }
 
 #navBar span {
@@ -94,7 +95,7 @@ h1, p {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
     padding: 5px;
     width: 100%;
     height: 100%;
@@ -200,4 +201,31 @@ td img:hover {
 td img:not(hover) {
     transform: scale(1);
     transition-duration: .5s;
+}
+
+#ContactForm {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    box-shadow: 0px 20px 2px 0px gray;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: brown;
+    text-align: center;
+    margin-bottom: 350px;
+    height: 400px;
+    width: 100%;
+}
+
+#cForm {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#ContactForm input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
 }
