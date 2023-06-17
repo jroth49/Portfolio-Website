@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+    <title>Jack's Portfolio</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
+    <script src="../static/javascript/typingeffect.js"></script>
+    
+    <div id="navBar">
+        <h3><span>Home</span> | <span>Projects</span> | <span>Today's Picks</span> | <span>Security Info</span></h3>
+    </div>
+</head>
+    <body onload="typing(document.getElementById('Job'), 'Software&nbsp;Developer');">
+
+        <div id="introBox">
+            <div id="blockHolder">
+                <div id="block1">
+                    <h1>Jack Roth</h1>
+                    <h2 id="jobTitle"><span id="Job"></span><span id="cursor">|</span></h2>
+                </div>
+                <div id="headshot">
+                    <img src="{{url_for('static', filename='transparentHead.png')}}">
+                </div>
+            </div>
+            <div id="introP">
+                <p>
+                    Hello and welcome to my software portfolio! My name is Jack, and I am a software developer. Throughout my career, I have had the opportunity to work on a variety of projects, ranging from web applications to data enegineering. My passion for software development stems from the ability to solve complex problems and create innovative solutions that can make a real difference in people's lives. On this portfolio, you'll find a selection of my most recent and relevant projects that showcase my skills in programming. I invite you to take a look and learn more about my work. Thank you for visiting!
+                </p>
+            </div>
+        </div>
+
+        <div id="techStack" class="fade-in-section">
+            <div id="techLanguage">
+                <h3>Languages</h3>
+                <div id="LanguagesHolder">
+                    <table>
+                        <tr>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/python.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/java.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/csharp.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/cplusplus.png')}}" width="75%" height="75%"></td>
+                        </tr>
+                        <tr>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/css.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/html.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/javascript.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/sql.png')}}" width="75%" height="75%"></td>
+                        </tr>
+                        <tr>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/json.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/xml.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/typescript.png')}}" width="75%" height="75%"></td>
+                        </tr>
+                      </table>
+                </div>
+            </div>
+            <div id="techFrameworks">
+                <h3>Libraries</h3>
+                <div id="FrameworksHolder">
+                    <table>
+                        <tr>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/nodejs.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/flask.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/angular.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/angularjs.svg')}}" width="75%" height="75%"></td>
+                        </tr>
+                        <tr>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/pandas.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/requests.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/beautifulsoup.jpeg')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/tailwind.png')}}" width="75%" height="75%"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="techTools">
+                <h3>Tools</h3>
+                <div id="ToolsHolder">
+                    <table>
+                        <tr>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/s3.svg')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/postman.svg')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/mssql.svg')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/git.png')}}" width="75%" height="75%"></td>
+                        </tr>
+                        <tr>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/dynamodb.png')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/cloudwatch.svg')}}" width="75%" height="75%"></td>
+                            <td width="15%" height="15%"><img src="{{url_for('static', filename='icons/azuredevops.png')}}" width="75%" height="75%"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="ContactForm">
+            <div id="cForm">
+                <h2 width="100%" style="text-align: left; padding: 5px;">Contact Me</h2>
+                <div>
+                    <form style="display: inline-block">
+                        <input type="text" placeholder="Name"><br>
+                        <input type="text" placeholder="Email"><br>
+                        <input type="text" placeholder="Message"><br>
+                        <input type="submit" value="Send Message">
+                    </form>
+                    <div height="100px" width="100px" style="background-color: green;"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

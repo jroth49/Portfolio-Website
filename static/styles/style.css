@@ -1,0 +1,231 @@
+@keyframes fadeIn {
+    from {
+        transform: translate3d(0,10px,0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+
+}
+
+#navBar {
+    margin-top: -50px;
+    margin-bottom: 100px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    text-align: center;
+    font-size: xx-small;
+}
+
+#navBar span {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+body {
+    background-color: #E8E8E8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+
+
+h1, p {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    width: 100%;
+    color: brown;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#introBox h1 {
+    font-size: 3vw;
+}
+
+#introBox p {
+    font-size: 1vw;
+}
+
+#introBox h2 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    font-size: 2vw;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#introBox {
+    margin-bottom: 175px;
+    padding: 25px;
+    width: 100%;
+    animation-name: fadeIn;
+    animation-duration: .5s;
+}
+
+#blockHolder {
+    margin-bottom: 50px;
+}
+
+#introP h3 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+
+#block1 {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#headshot {
+    width: 100%;
+    display: table-cell;
+    text-align: right;
+}
+
+#headshot img {
+    height: 13vw;
+    width: 13vw;
+    margin-right: 30px;
+}
+
+#techStack {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 250px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#techLanguage {
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 300px;
+    margin-right: 5%;
+    margin-left: auto;
+    box-shadow: 0px 20px 2px 0px gray;
+}
+
+#techLanguage:hover {
+    transform: scale(1.3);
+    transition-duration: .5s;
+}
+
+#techLanguage:not(hover) {
+    transform: scale(1);
+    transition-duration: .25s;
+}
+
+#techFrameworks {
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 300px;
+    margin-right: 5%;
+    margin-left: auto;
+    box-shadow: 0px 20px 2px 0px gray;
+}
+
+#techFrameworks:hover {
+    transform: scale(1.3);
+    transition-duration: .5s;
+}
+
+#techFrameworks:not(hover) {
+    transform: scale(1);
+    transition-duration: .25s;
+}
+
+#FrameworksHolder {
+    height: 100%;
+    width: 100%;
+}
+
+
+#techTools {
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 20px 2px 0px gray;
+}
+
+#techTools:hover {
+    transform: scale(1.25);
+    transition-duration: .5s;
+}
+
+#techTools:not(hover) {
+    transform: scale(1);
+    transition-duration: .25s;
+}
+
+#techStack h3 {
+    text-align: right;
+    font-size: 1vw;
+    color: brown;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#LanguagesHolder {
+    height: 100%;
+    width: 100%;
+}
+
+td {
+    margin: 5px;
+}
+
+td img:hover {
+    transform: scale(1.5);
+    transition-duration: .5s;
+}
+
+td img:not(hover) {
+    transform: scale(1);
+    transition-duration: .5s;
+}
+
+#ContactForm {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    box-shadow: 0px 20px 2px 0px gray;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: brown;
+    text-align: center;
+    margin-bottom: 350px;
+    height: 400px;
+    width: 100%;
+}
+
+#cForm {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#ContactForm input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
